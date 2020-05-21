@@ -9,7 +9,8 @@
         "IconViewZoom": 15,
         "TextViewZoom": 17,
         "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">© MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">© OpenStreetMap contributors</a>",
-        "style": "https://api.maptiler.com/maps/1910e38e-465c-4a6c-810a-284396503d45/style.json?key=qHwpCQxJDCRgfpUrMMKq"
+        "style": "https://api.maptiler.com/maps/1910e38e-465c-4a6c-810a-284396503d45/style.json?key=qHwpCQxJDCRgfpUrMMKq",
+        "GoogleAnalytics": ""
     },
     "menu": [
         {
@@ -29,7 +30,7 @@
         },
         {
             "glot-model": "openstreetmap",
-            "linkto": "https://www.openstreetmap.org/",
+            "linkto": "https://www.openstreetmap.org/about",
             "divider": false
         },
         {
@@ -47,8 +48,7 @@
                 "way[\"takeaway:covid19\"]"
             ],
             "list": true,
-            "zoom": 15,
-            "icon": "./image/bentou.svg"
+            "zoom": 15
         },
         "delivery": {
             "ovpass": [
@@ -58,9 +58,7 @@
                 "way[\"delivery:covid19\"]"
             ],
             "list": true,
-            "zoom": 15,
-            "icon": "./image/delivery.svg"
-        },
+            "zoom": 15        },
         "takeaway_shop": {
             "ovpass": [
                 "node[\"shop\"=\"bakery\"]",
@@ -71,16 +69,14 @@
                 "way[\"shop\"=\"alcohol\"]"
             ],
             "list": true,
-            "zoom": 15,
-            "icon": "./image/bentou.svg"
+            "zoom": 15
         },
         "vending_machine": {
             "ovpass": [
                 "node[\"amenity\"=\"vending_machine\"][\"vending\"=\"drinks\"]"
             ],
             "list": false,
-            "zoom": 17,
-            "icon": "./image/vending.svg"
+            "zoom": 18
         },
         "library": {
             "ovpass": [
@@ -88,8 +84,7 @@
                 "way[\"amenity\"=\"library\"]"
             ],
             "list": true,
-            "zoom": 15,
-            "icon": "./image/library.svg"
+            "zoom": 15
         }
     }
 }
